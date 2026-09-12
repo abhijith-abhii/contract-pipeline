@@ -1,0 +1,7 @@
+order_id,date,region,quantity,unit_price
+DEMO-001,2026-09-01,north,2,12.50
+DEMO-002,2026-09-02,south,1,8.99
+DEMO-003,2026-09-02,east,0,10.00
+DEMO-004,2026-02-30,west,2,5.00
+DEMO-002,2026-09-03,south,4,8.99
+DEMO-005,2026-09-04,west,3,0.10

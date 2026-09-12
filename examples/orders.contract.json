@@ -1,0 +1,11 @@
+{
+  "name": "orders_v1",
+  "key": "order_id",
+  "fields": [
+    {"name": "order_id", "type": "string", "required": true},
+    {"name": "date", "type": "date", "required": true},
+    {"name": "region", "type": "string", "required": true, "enum": ["north", "south", "east", "west"]},
+    {"name": "quantity", "type": "integer", "required": true, "min": 1},
+    {"name": "unit_price", "type": "decimal", "required": true, "min": 0}
+  ]
+}
