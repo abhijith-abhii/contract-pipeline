@@ -60,3 +60,7 @@ Tests cover valid and invalid records, replay, key updates, exact decimals, pres
 ## Limitations
 
 Files are validated in memory with a 20 MiB limit. The tool is a batch demonstration, with no scheduler, cloud connector, streaming ingestion, SQL analytics UI, authentication, or schema migration engine. Renaming a changed contract creates a separate namespace; migrating old data requires an explicit process. Input dates carry no time zone because they are calendar dates. The sample counts are fixture results, not business impact or performance measurements.
+
+## Connect
+
+[LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
