@@ -2,7 +2,7 @@
 
 A local data ingestion tool that validates CSV records against a versioned JSON contract, loads valid rows into SQLite, and records rejected rows with specific errors. Content hashes make file replay idempotent; record keys support updates across different batches.
 
-**Status:** Implemented local portfolio project created with Codex during this task. All supplied records are fictional retail orders. See [engineering and interview notes](ENGINEERING.md).
+**Status:** My implemented local portfolio project. All supplied records are fictional retail orders. See [engineering and interview notes](ENGINEERING.md).
 
 ## Quick start
 
@@ -64,3 +64,7 @@ Files are validated in memory with a 20 MiB limit. The tool is a batch demonstra
 ## Connect
 
 [LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
+
+## Development notes
+
+AI tools assisted with implementation, tests and documentation. This is my personal portfolio work; benchmark results and deployment boundaries are documented in the repository.
